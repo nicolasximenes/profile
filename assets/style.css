@@ -130,8 +130,6 @@ a {
   outline-offset: -0.5rem;
   border-radius: 50%;
   background-color: #000;
-  
-  /* border: 0.5rem solid var(--primary-color); */
 }
 
 .labels {
