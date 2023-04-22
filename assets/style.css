@@ -11,10 +11,14 @@
   /* 1rem = 10px */
   font-family: 'Rubik', sans-serif;
 
-  --primary-color: #f4582e;
+  /* --primary-color: #f4582e; */
+  --primary-color: #e60900;
   --gray-3: #828282;
   --bg-dark-gray: #20252A;
   --bg-dark-gray-alpha: rgba(0, 0, 0, 0.75);
+
+  --bg-dark-vulcan: #00021c;
+  --bg-very-dark: #0a0a0a;
 }
 
 body {
@@ -25,8 +29,9 @@ body {
   align-items: center;
   font-size: 1.6rem;
   min-height: 100vh;
-  background: #0a0a0a;
-  background-image: radial-gradient(125.71% 48.94% at 48.42% 51.06%, #0B1127 0%, #0A0A0A 100%);
+  background: var(--bg-very-dark);
+  /* background-image: radial-gradient(125.71% 48.94% at 48.42% 51.06%, #0B1127 0%, #0A0A0A 100%); */
+  background-image: radial-gradient(50% 50% at 50% 50%, var(--bg-dark-vulcan) 0%, var(--bg-very-dark) 100%);
 }
 
 a {
